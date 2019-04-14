@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Database Pelanet Star Wars</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<div class="container col-10">
+		<h1><img src="starwars.png" width="50"> Database Pelanet Star Wars</h1>
+
+		<div class="cari">
+			<form class="form-inline">
+				<div class="form-group mx-sm-12 mb-2">
+					<input type="text" class="form-control" id="cari" placeholder="Ketikan Kriteria">
+				</div>
+				<button type="button" class="btn btn-primary mb-2" onclick="cari_data()">Cari</button>
+			</form>
+		</div>
+
+		<div class="card">
+			<div class="card-body">
+				<table class="table table-striped" id="my_table">
+					<thead class="thead-dark">
+						<tr>
+							<th>Nama</th>
+							<th>Rotasi</th>
+							<th>Orbit</th>
+							<th>Diameter</th>
+							<th>Cuaca</th>
+							<th>Grafitasi</th>
+							<th>Medan</th>
+							<th>Permukaan air</th>
+							<th>Populasi</th>
+						</tr>
+					</thead>
+					<tbody>
+						
+					</tbody>
+				</table>
+			</div>
+		</div>
+		
+	</div>
+
+	<script src="main.js"></script>
+</body>
+</html>
